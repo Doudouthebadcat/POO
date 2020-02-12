@@ -16,6 +16,12 @@ class Voiture {
 
   }
 
+  /*faireLePlein2(){
+    while (this.quantiteCarburant < this.volumeReservoir){
+      this.rajouteCarburant();
+    }
+  }*/// fonction plus rapide utilisant la function rajoutecarburant() deja créer
+
   faireLePlein(){
 
     if (this.quantiteCarburant < this.volumeReservoir) {
